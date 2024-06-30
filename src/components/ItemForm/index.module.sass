@@ -1,0 +1,50 @@
+.input
+  width: 100%
+  height: 50px
+  border: 1px solid rgba(0, 11, 38, 0.16)
+  box-sizing: border-box
+  border-radius: 3px
+  padding-left: 15px
+
+
+.inputError
+  border-color: #FF4545
+  border-width: 2px
+
+
+.form
+  width: 100%
+  margin: 0 4vw
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  gap: 1vh
+  .input_wrapper
+    width: 100%
+
+  p
+    margin: 0
+
+  .password_wrapper
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+
+  .input_label
+    margin-bottom: 1vh
+
+.errorMessage
+  font-size: 14px
+  line-height: 20px
+  color: #FF4545
+
+.validation_wrapper
+  margin-top: 5px
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  .validation_item
+    display: flex
+    flex-direction: row
+    gap: 5px
+    font-size: 12px
